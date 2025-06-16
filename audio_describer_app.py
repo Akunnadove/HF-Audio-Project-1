@@ -1,3 +1,5 @@
+import os
+os.environ["STREAMLIT_WATCHER_IGNORE_MODULES"] = "torch,torch.*"
 
 import streamlit as st
 import torch
